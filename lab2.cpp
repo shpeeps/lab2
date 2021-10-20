@@ -41,16 +41,16 @@ int main()
 
 		if ((enterNumber / 10) % 10 == 1)
 		{
-			if (enterNumber % 10 == 0) cout << "десять рублей";
-			else if (enterNumber % 10 == 1) cout << "одинадцать рублей";
-			else if (enterNumber % 10 == 2) cout << "двенадцать рублей";
-			else if (enterNumber % 10 == 3) cout << "тринадцать рублей";
-			else if (enterNumber % 10 == 4) cout << "четырнадцать рублей";
-			else if (enterNumber % 10 == 5) cout << "пятнадцать рублей";
-			else if (enterNumber % 10 == 6) cout << "шестнадцать рублей";
-			else if (enterNumber % 10 == 7) cout << "семнадцать рублей";
-			else if (enterNumber % 10 == 8) cout << "восемнадцать рублей";
-			else if (enterNumber % 10 == 9) cout << "девятнадцать рублей";
+		if (enterNumber % 10 == 0) cout << "десять рублей";
+		else if (enterNumber % 10 == 1) cout << "одинадцать рублей";
+		else if (enterNumber % 10 == 2) cout << "двенадцать рублей";
+		else if (enterNumber % 10 == 3) cout << "тринадцать рублей";
+		else if (enterNumber % 10 == 4) cout << "четырнадцать рублей";
+		else if (enterNumber % 10 == 5) cout << "пятнадцать рублей";
+		else if (enterNumber % 10 == 6) cout << "шестнадцать рублей";
+		else if (enterNumber % 10 == 7) cout << "семнадцать рублей";
+		else if (enterNumber % 10 == 8) cout << "восемнадцать рублей";
+		else if (enterNumber % 10 == 9) cout << "девятнадцать рублей";
 		}
 
 		if ((enterNumber / 10) % 10 == 2) cout << "двадцать ";
@@ -64,16 +64,16 @@ int main()
 
 		if ((enterNumber / 10) % 10 != 1)
 		{
-			if (enterNumber % 10 == 0) cout << "рублей";
-			else if (enterNumber % 10 == 1) cout << "один рубль";
-			else if (enterNumber % 10 == 2) cout << "два рубля ";
-			else if (enterNumber % 10 == 3) cout << "три рубля ";
-			else if (enterNumber % 10 == 4) cout << "четыре рубля ";
-			else if (enterNumber % 10 == 5) cout << "пять рублей ";
-			else if (enterNumber % 10 == 6) cout << "шесть рублей ";
-			else if (enterNumber % 10 == 7) cout << "семь рублей ";
-			else if (enterNumber % 10 == 8) cout << "восемь рублей ";
-			else cout << "девять рублей ";
+		if (enterNumber % 10 == 0) cout << "рублей";
+		else if (enterNumber % 10 == 1) cout << "один рубль";
+		else if (enterNumber % 10 == 2) cout << "два рубля ";
+		else if (enterNumber % 10 == 3) cout << "три рубля ";
+		else if (enterNumber % 10 == 4) cout << "четыре рубля ";
+		else if (enterNumber % 10 == 5) cout << "пять рублей ";
+		else if (enterNumber % 10 == 6) cout << "шесть рублей ";
+		else if (enterNumber % 10 == 7) cout << "семь рублей ";
+		else if (enterNumber % 10 == 8) cout << "восемь рублей ";
+		else cout << "девять рублей ";
 		}
 	}
 
